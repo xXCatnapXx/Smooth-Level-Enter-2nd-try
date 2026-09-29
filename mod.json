@@ -1,0 +1,45 @@
+{
+    "geode": "4.10.2",
+    "gd": {
+        "win": "2.2074",
+        "android": "2.2074",
+        "mac": "2.2074",
+        "ios": "2.2074"
+    },
+
+    "version": "v1.0.9",
+    "id": "undefined0.smooth-level-enter",
+    "name": "Smooth Level Enter",
+    "developer": "undefined0",
+    "description": "Smoooooothly transition into playing a level!",
+    "tags": [ "gameplay", "enhancement" ],
+
+    "links": {
+        "source": "https://github.com/undefined06855/Smooth-Level-Enter"
+    },
+
+    "dependencies": {
+        "geode.node-ids": "v1.21.0"
+    },
+
+    "settings": {
+        "override-length": {
+            "name": "Override Length",
+            "type": "bool",
+            "description": "Overrides the length of the transition to force it to be 1 second, regardless of any other mod or ingame setting.",
+            "default": true
+        },
+        "animate-out-level-page": {
+            "name": "Animate Level Page",
+            "type": "bool",
+            "description": "Whether to animate out the level page.",
+            "default": true
+        },
+        "legacy-easing": {
+            "name": "Legacy Easing",
+            "type": "bool",
+            "description": "Use the legacy Bounce Out easing for blocks in the level, over the newer Exponential Out easing.",
+            "default": false
+        }
+    }
+}
